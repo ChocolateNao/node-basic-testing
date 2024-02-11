@@ -3,6 +3,7 @@ import { throttledGetDataFromApi } from './index';
 
 describe('throttledGetDataFromApi', () => {
   const url = 'posts/100';
+
   beforeAll(() => {
     jest.useFakeTimers();
   });
